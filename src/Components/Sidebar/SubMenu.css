@@ -1,0 +1,38 @@
+.link {
+  display: flex;
+  color: green;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1rem;
+  padding: 20px;
+  width: 70%;
+  list-style: none;
+  height: 30px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.link:hover {
+  background: lavender;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.sublink {
+  display: flex;
+  color: green;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-left: 2rem;
+  width: 60%;
+  height: 15px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.sublink:hover {
+    background: lavender;
+    border-radius: 3px;
+    cursor: pointer;
+}

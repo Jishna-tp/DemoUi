@@ -1,0 +1,53 @@
+.header_items {
+  background: rgb(190, 189, 189);
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search {
+margin: auto;
+justify-content: center;
+display: flex;
+}
+
+.search_bar {
+padding: 10px 10% 10px 10%;
+margin-left: 5px;
+border: none;
+border-radius: 3px;
+width: 250px;
+}
+
+.search_icon {
+font-size: 2rem;
+margin: auto 0 auto 0.5rem;
+color: rgb(83, 3, 114);
+}
+
+.search_icon:hover {
+color: rgb(136, 34, 208);
+background-color: lavender;
+border-radius: 3px;
+cursor: pointer;
+}
+
+.icons {
+justify-content: center;
+display: flex;
+align-items: center;
+font-size: 1.5rem;
+}
+
+.icon1 {
+margin-right: 0.5rem;
+}
+
+.icon1, .icon2:hover {
+cursor: pointer;
+}
+
+.icon2 {
+margin-right: 2rem;
+}
+
